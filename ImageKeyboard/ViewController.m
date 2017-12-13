@@ -11,7 +11,7 @@
 #import <MessageUI/MFMailComposeViewController.h>//mail controller
 
 
-@interface ViewController ()<UITableViewDataSource, UITableViewDelegate, MFMailComposeViewControllerDelegate>
+@interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
 {
     
     IBOutlet UITableView *mTableView;
@@ -90,12 +90,7 @@
     else if (indexPath.row == 1) {
         [self performSegueWithIdentifier:@"gotoTutorial" sender:self];        
     }
-    else if (indexPath.row == 2) {
-        [self onReportEmail];
-    }
-    else {
-        [self onPrivacy];
-    }
+  
     
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
 }
@@ -169,40 +164,5 @@
 
 
 
--(void) onReportEmail
-{
-    
-    NSString *subject = @"Feedback";
-    
-    if(![MFMailComposeViewController canSendMail]){
-        [[[UIAlertView alloc] initWithTitle:nil message:@"Please configure your mail settings to send email." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
-        return;
-    }
-    
-    MFMailComposeViewController* mc = [[MFMailComposeViewController alloc] init];
-    mc.mailComposeDelegate = self;
-    [mc setSubject:subject];
-    [mc setToRecipients:@[@"admin@expresserapp.com"]];
-
-    [self presentViewController:mc animated:YES completion:nil];
-}
-
-- (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error{
-    switch (result) {
-        case MFMailComposeResultSent:
-            
-            [[[UIAlertView alloc] initWithTitle:nil message:@"Email sent!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
-            
-            break;
-            
-        default:
-            break;
-    }
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
--(void) onPrivacy
-{
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://expresserapp.com/e/privacy.html"]];
-}
 
 @end

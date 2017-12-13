@@ -22,8 +22,6 @@
 		453EEE2319EC57CF00070A49 /* title_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 453EEE2119EC57CF00070A49 /* title_back.png */; };
 		453EEE2619EC622800070A49 /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 453EEE2519EC622800070A49 /* TutorialViewController.m */; };
 		453EEE2719EC622800070A49 /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 453EEE2519EC622800070A49 /* TutorialViewController.m */; };
-		453EEE2919EC663400070A49 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453EEE2819EC663400070A49 /* MessageUI.framework */; };
-		453EEE2A19EC663900070A49 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453EEE2819EC663400070A49 /* MessageUI.framework */; };
 		453EEE2C19EC67A600070A49 /* long_version_extended.mov in Resources */ = {isa = PBXBuildFile; fileRef = 453EEE2B19EC67A600070A49 /* long_version_extended.mov */; };
 		453EEE2D19EC67A600070A49 /* long_version_extended.mov in Resources */ = {isa = PBXBuildFile; fileRef = 453EEE2B19EC67A600070A49 /* long_version_extended.mov */; };
 		453EEE2F19EC697E00070A49 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453EEE2E19EC697E00070A49 /* MediaPlayer.framework */; };
@@ -244,7 +242,6 @@
 		453EEE2119EC57CF00070A49 /* title_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_back.png; sourceTree = "<group>"; };
 		453EEE2419EC622800070A49 /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
 		453EEE2519EC622800070A49 /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
-		453EEE2819EC663400070A49 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		453EEE2B19EC67A600070A49 /* long_version_extended.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = long_version_extended.mov; sourceTree = "<group>"; };
 		453EEE2E19EC697E00070A49 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		4550BE1519DA4C7D00616949 /* Expresser Smiley Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expresser Smiley Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -364,7 +361,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				453EEE2F19EC697E00070A49 /* MediaPlayer.framework in Frameworks */,
-				453EEE2919EC663400070A49 /* MessageUI.framework in Frameworks */,
 				453EEE1319E6308200070A49 /* libsqlite3.0.dylib in Frameworks */,
 				453EEE0E19E6300400070A49 /* libz.dylib in Frameworks */,
 				453EEE0C19E62FF900070A49 /* SystemConfiguration.framework in Frameworks */,
@@ -387,7 +383,6 @@
 				453EEE1119E6300D00070A49 /* CoreData.framework in Frameworks */,
 				453EEE1019E6300900070A49 /* SystemConfiguration.framework in Frameworks */,
 				453EEE1419E6308400070A49 /* libsqlite3.0.dylib in Frameworks */,
-				453EEE2A19EC663900070A49 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +400,6 @@
 			isa = PBXGroup;
 			children = (
 				453EEE2E19EC697E00070A49 /* MediaPlayer.framework */,
-				453EEE2819EC663400070A49 /* MessageUI.framework */,
 				453EEE1219E6308200070A49 /* libsqlite3.0.dylib */,
 				453EEE0D19E6300300070A49 /* libz.dylib */,
 				453EEE0B19E62FF900070A49 /* SystemConfiguration.framework */,
