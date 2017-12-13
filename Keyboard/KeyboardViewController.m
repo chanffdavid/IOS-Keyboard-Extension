@@ -226,6 +226,18 @@ typedef enum KEYBOARDORIENT {
     [self addBubbleImage];
     
 #endif
+    
+    CGFloat _expandedHeight = 0;
+    NSLayoutConstraint *_heightConstraint =
+    [NSLayoutConstraint constraintWithItem: self.view
+                                 attribute: NSLayoutAttributeHeight
+                                 relatedBy: NSLayoutRelationEqual
+                                    toItem: nil
+                                 attribute: NSLayoutAttributeNotAnAttribute
+                                multiplier: 0.0
+                                  constant: _expandedHeight];
+    [self.view addConstraint: _heightConstraint];
+    
 }
 
 

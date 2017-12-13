@@ -7,16 +7,11 @@
 //
 
 #import "ViewController.h"
-#import "GADInterstitial.h"
-
 #import <MediaPlayer/MediaPlayer.h>
 #import <MessageUI/MFMailComposeViewController.h>//mail controller
 
-#define ADMOB_ID    @"ca-app-pub-4311000974756091/6138209368"
 
-
-
-@interface ViewController ()<GADInterstitialDelegate, UITableViewDataSource, UITableViewDelegate, MFMailComposeViewControllerDelegate>
+@interface ViewController ()<UITableViewDataSource, UITableViewDelegate, MFMailComposeViewControllerDelegate>
 {
     
     IBOutlet UITableView *mTableView;
@@ -27,30 +22,13 @@
 @end
 
 @implementation ViewController{
-    GADInterstitial * bannerView;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-#ifdef FREE_VERSION
-//    bannerView = [[GADBannerView alloc] initWithFrame:CGRectMake((self.view.frame.size.width-GAD_SIZE_320x50.width)/2, self.view.frame.size.height-GAD_SIZE_320x50.height,
-//                                                                 GAD_SIZE_320x50.width, GAD_SIZE_320x50.height)];
-    bannerView =  [[GADInterstitial alloc] init];
-    bannerView.delegate = self;
 
-    bannerView.adUnitID = ADMOB_ID;
-    
-    // Initiate a generic request to load it with an ad.
-    GADRequest *request = [GADRequest request];
-    request.testDevices = [NSArray arrayWithObjects:
-                           GAD_SIMULATOR_ID,
-                           nil];
-    [bannerView loadRequest:request];
-    
-    [bannerView presentFromRootViewController:self];
-#endif
     
 }
 
@@ -64,23 +42,6 @@
 //    [self.view bringSubviewToFront:bannerView];
 //}
 
-- (void)interstitial:(GADInterstitial *)interstitial
-didFailToReceiveAdWithError:(GADRequestError *)error {
-    // Alert the error.
-    UIAlertView *alert = [[UIAlertView alloc]
-                           initWithTitle:@"GADRequestError"
-                           message:[error localizedDescription]
-                           delegate:nil cancelButtonTitle:@"Drat"
-                           otherButtonTitles:nil] ;
-    [alert show];
-}
-
--(void)interstitialWillPresentScreen:(GADInterstitial *)ad{
-    NSLog(@"on screen");
-}
-- (void)interstitialDidReceiveAd:(GADInterstitial *)interstitial {
-    [interstitial presentFromRootViewController:self];
-}
 
 
 #pragma mark
@@ -149,10 +110,6 @@ didFailToReceiveAdWithError:(GADRequestError *)error {
     moviePlayer= [[MPMoviePlayerController alloc] initWithContentURL:
                   [NSURL fileURLWithPath: [[NSBundle mainBundle] pathForResource:fileName ofType:@"mov"]]];
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(videoStarted:) name:MPMoviePlayerWillEnterFullscreenNotification object:moviePlayer];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(videoFinished:) name:MPMoviePlayerDidExitFullscreenNotification object:moviePlayer];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(moviePlayBackDidFinish:) name:MPMoviePlayerPlaybackDidFinishNotification object:moviePlayer];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(moviePlayBackDonePressed:) name:MPMoviePlayerDidExitFullscreenNotification object:moviePlayer];
     
     moviePlayer.controlStyle=MPMovieControlStyleDefault;
     //    moviePlayer.shouldAutoplay=NO;

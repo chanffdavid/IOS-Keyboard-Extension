@@ -8,8 +8,6 @@
 
 #import "AppDelegate.h"
 
-#import "GAI.h"
-
 #ifdef FREE_VERSION
     #define kGaPropertyId   @"UA-55543247-2"
 #else
@@ -27,17 +25,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    [GAI sharedInstance].trackUncaughtExceptions = YES;
-    
-    // Optional: set Google Analytics dispatch interval to e.g. 20 seconds.
-    [GAI sharedInstance].dispatchInterval = 20;
-    
-    // Optional: set Logger to VERBOSE for debug information.
-    [[[GAI sharedInstance] logger] setLogLevel:kGAILogLevelVerbose];
-    
-    // Initialize tracker. Replace with your tracking ID.
-    [[GAI sharedInstance] trackerWithTrackingId:kGaPropertyId];
-    
+
     return YES;
 }
 

@@ -8,18 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		450F205419E4841B00EB2610 /* Keyboard Paid.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 45C59BD919E39CA9007B0BD8 /* Keyboard Paid.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		453EED6419E62E9E00070A49 /* Changelog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 453EECE919E62E9D00070A49 /* Changelog.txt */; };
-		453EED6519E62E9E00070A49 /* Changelog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 453EECE919E62E9D00070A49 /* Changelog.txt */; };
-		453EEDA219E62E9E00070A49 /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 453EED1F19E62E9D00070A49 /* Readme.txt */; };
-		453EEDA319E62E9E00070A49 /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 453EED1F19E62E9D00070A49 /* Readme.txt */; };
-		453EEDFA19E62E9E00070A49 /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 453EED6119E62E9D00070A49 /* libAdIdAccess.a */; };
-		453EEDFB19E62E9E00070A49 /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 453EED6119E62E9D00070A49 /* libAdIdAccess.a */; };
-		453EEDFC19E62E9E00070A49 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 453EED6219E62E9E00070A49 /* libGoogleAnalyticsServices.a */; };
-		453EEDFD19E62E9E00070A49 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 453EED6219E62E9E00070A49 /* libGoogleAnalyticsServices.a */; };
-		453EEDFE19E62E9E00070A49 /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 453EED6319E62E9E00070A49 /* Readme.txt */; };
-		453EEDFF19E62E9E00070A49 /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 453EED6319E62E9E00070A49 /* Readme.txt */; };
-		453EEE0719E62FBE00070A49 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453EEE0619E62FBE00070A49 /* AdSupport.framework */; };
-		453EEE0819E62FCA00070A49 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453EEE0619E62FBE00070A49 /* AdSupport.framework */; };
 		453EEE0A19E62FED00070A49 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453EEE0919E62FED00070A49 /* CoreData.framework */; };
 		453EEE0C19E62FF900070A49 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453EEE0B19E62FF900070A49 /* SystemConfiguration.framework */; };
 		453EEE0E19E6300400070A49 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 453EEE0D19E6300300070A49 /* libz.dylib */; };
@@ -116,15 +104,11 @@
 		45C59B4D19E32EC1007B0BD8 /* ELCAssetTablePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C59B4119E32EC1007B0BD8 /* ELCAssetTablePicker.xib */; };
 		45C59B4E19E32EC1007B0BD8 /* Overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C59B4219E32EC1007B0BD8 /* Overlay.png */; };
 		45C59B4F19E32EC1007B0BD8 /* Overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C59B4319E32EC1007B0BD8 /* Overlay@2x.png */; };
-		45C59B7219E38343007B0BD8 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C59B7019E38343007B0BD8 /* libGoogleAdMobAds.a */; };
-		45C59B7319E38343007B0BD8 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45C59B7119E38343007B0BD8 /* README.txt */; };
 		45C59B7A19E39721007B0BD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4550BE2019DA4C7D00616949 /* ViewController.m */; };
 		45C59B7B19E39721007B0BD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4550BE1D19DA4C7D00616949 /* AppDelegate.m */; };
 		45C59B7C19E39721007B0BD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4550BE1A19DA4C7D00616949 /* main.m */; };
-		45C59B7E19E39721007B0BD8 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C59B7019E38343007B0BD8 /* libGoogleAdMobAds.a */; };
 		45C59B8019E39721007B0BD8 /* instructions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45C59B0619E3118D007B0BD8 /* instructions.jpg */; };
 		45C59B8119E39721007B0BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4550BE2219DA4C7D00616949 /* Main.storyboard */; };
-		45C59B8419E39721007B0BD8 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 45C59B7119E38343007B0BD8 /* README.txt */; };
 		45C59B8E19E3989A007B0BD8 /* Images_Paid.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C59B8D19E3989A007B0BD8 /* Images_Paid.xcassets */; };
 		45C59B9119E39CA9007B0BD8 /* Keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4550BE5519DA4D4000616949 /* Keyboard.m */; };
 		45C59B9219E39CA9007B0BD8 /* ELCAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C59B3019E32EC1007B0BD8 /* ELCAsset.m */; };
@@ -252,22 +236,6 @@
 /* Begin PBXFileReference section */
 		450F205919E4849D00EB2610 /* Expresser Smiley Keyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Expresser Smiley Keyboard.entitlements"; sourceTree = "<group>"; };
 		453EEC7B19E59AD900070A49 /* Keyboard Paid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Keyboard Paid.entitlements"; sourceTree = "<group>"; };
-		453EECE919E62E9D00070A49 /* Changelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Changelog.txt; sourceTree = "<group>"; };
-		453EED1519E62E9D00070A49 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
-		453EED1619E62E9D00070A49 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
-		453EED1719E62E9D00070A49 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
-		453EED1819E62E9D00070A49 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
-		453EED1919E62E9D00070A49 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
-		453EED1A19E62E9D00070A49 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
-		453EED1B19E62E9D00070A49 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
-		453EED1C19E62E9D00070A49 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
-		453EED1D19E62E9D00070A49 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
-		453EED1E19E62E9D00070A49 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
-		453EED1F19E62E9D00070A49 /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
-		453EED6119E62E9D00070A49 /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccess.a; sourceTree = "<group>"; };
-		453EED6219E62E9E00070A49 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
-		453EED6319E62E9E00070A49 /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
-		453EEE0619E62FBE00070A49 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		453EEE0919E62FED00070A49 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		453EEE0B19E62FF900070A49 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		453EEE0D19E6300300070A49 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -379,35 +347,6 @@
 		45C59B4119E32EC1007B0BD8 /* ELCAssetTablePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetTablePicker.xib; sourceTree = "<group>"; };
 		45C59B4219E32EC1007B0BD8 /* Overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Overlay.png; sourceTree = "<group>"; };
 		45C59B4319E32EC1007B0BD8 /* Overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Overlay@2x.png"; sourceTree = "<group>"; };
-		45C59B5319E38343007B0BD8 /* DFPBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPBannerView.h; sourceTree = "<group>"; };
-		45C59B5419E38343007B0BD8 /* DFPExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPExtras.h; sourceTree = "<group>"; };
-		45C59B5519E38343007B0BD8 /* DFPInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPInterstitial.h; sourceTree = "<group>"; };
-		45C59B5619E38343007B0BD8 /* DFPSwipeableBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPSwipeableBannerView.h; sourceTree = "<group>"; };
-		45C59B5719E38343007B0BD8 /* GADAdSizeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSizeDelegate.h; sourceTree = "<group>"; };
-		45C59B5819E38343007B0BD8 /* GADAppEventDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAppEventDelegate.h; sourceTree = "<group>"; };
-		45C59B5919E38343007B0BD8 /* GADSwipeableBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADSwipeableBannerViewDelegate.h; sourceTree = "<group>"; };
-		45C59B5B19E38343007B0BD8 /* GADCustomEventBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventBanner.h; sourceTree = "<group>"; };
-		45C59B5C19E38343007B0BD8 /* GADCustomEventBannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventBannerDelegate.h; sourceTree = "<group>"; };
-		45C59B5D19E38343007B0BD8 /* GADCustomEventExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventExtras.h; sourceTree = "<group>"; };
-		45C59B5E19E38343007B0BD8 /* GADCustomEventInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventInterstitial.h; sourceTree = "<group>"; };
-		45C59B5F19E38343007B0BD8 /* GADCustomEventInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventInterstitialDelegate.h; sourceTree = "<group>"; };
-		45C59B6019E38343007B0BD8 /* GADCustomEventRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventRequest.h; sourceTree = "<group>"; };
-		45C59B6219E38343007B0BD8 /* GADSearchBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADSearchBannerView.h; sourceTree = "<group>"; };
-		45C59B6319E38343007B0BD8 /* GADSearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADSearchRequest.h; sourceTree = "<group>"; };
-		45C59B6419E38343007B0BD8 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
-		45C59B6519E38343007B0BD8 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
-		45C59B6619E38343007B0BD8 /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
-		45C59B6719E38343007B0BD8 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
-		45C59B6819E38343007B0BD8 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
-		45C59B6919E38343007B0BD8 /* GADInAppPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchase.h; sourceTree = "<group>"; };
-		45C59B6A19E38343007B0BD8 /* GADInAppPurchaseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchaseDelegate.h; sourceTree = "<group>"; };
-		45C59B6B19E38343007B0BD8 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
-		45C59B6C19E38343007B0BD8 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
-		45C59B6D19E38343007B0BD8 /* GADModules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADModules.h; sourceTree = "<group>"; };
-		45C59B6E19E38343007B0BD8 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
-		45C59B6F19E38343007B0BD8 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
-		45C59B7019E38343007B0BD8 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
-		45C59B7119E38343007B0BD8 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		45C59B8A19E39721007B0BD8 /* Expresser Smiley Keyboard Gold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expresser Smiley Keyboard Gold.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C59B8B19E39722007B0BD8 /* Expresser Smiley Keyboard Paid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Expresser Smiley Keyboard Paid-Info.plist"; path = "/Volumes/iGold/WORK/IOS/Keyboard/ImageKeyboard/Expresser Smiley Keyboard Paid-Info.plist"; sourceTree = "<absolute>"; };
 		45C59B8D19E3989A007B0BD8 /* Images_Paid.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images_Paid.xcassets; path = ImageKeyboard/Images_Paid.xcassets; sourceTree = "<group>"; };
@@ -430,10 +369,6 @@
 				453EEE0E19E6300400070A49 /* libz.dylib in Frameworks */,
 				453EEE0C19E62FF900070A49 /* SystemConfiguration.framework in Frameworks */,
 				453EEE0A19E62FED00070A49 /* CoreData.framework in Frameworks */,
-				453EEE0819E62FCA00070A49 /* AdSupport.framework in Frameworks */,
-				45C59B7219E38343007B0BD8 /* libGoogleAdMobAds.a in Frameworks */,
-				453EEDFA19E62E9E00070A49 /* libAdIdAccess.a in Frameworks */,
-				453EEDFC19E62E9E00070A49 /* libGoogleAnalyticsServices.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,14 +383,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				453EEE0719E62FBE00070A49 /* AdSupport.framework in Frameworks */,
 				453EEE0F19E6300700070A49 /* libz.dylib in Frameworks */,
 				453EEE1119E6300D00070A49 /* CoreData.framework in Frameworks */,
-				45C59B7E19E39721007B0BD8 /* libGoogleAdMobAds.a in Frameworks */,
-				453EEDFB19E62E9E00070A49 /* libAdIdAccess.a in Frameworks */,
 				453EEE1019E6300900070A49 /* SystemConfiguration.framework in Frameworks */,
 				453EEE1419E6308400070A49 /* libsqlite3.0.dylib in Frameworks */,
-				453EEDFD19E62E9E00070A49 /* libGoogleAnalyticsServices.a in Frameworks */,
 				453EEE2A19EC663900070A49 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,44 +401,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		453EECE719E62E9D00070A49 /* GoogleAnalyticsServicesiOS_3.09 */ = {
-			isa = PBXGroup;
-			children = (
-				453EECE819E62E9D00070A49 /* GoogleAnalytics */,
-				453EED6119E62E9D00070A49 /* libAdIdAccess.a */,
-				453EED6219E62E9E00070A49 /* libGoogleAnalyticsServices.a */,
-				453EED6319E62E9E00070A49 /* Readme.txt */,
-			);
-			path = GoogleAnalyticsServicesiOS_3.09;
-			sourceTree = "<group>";
-		};
-		453EECE819E62E9D00070A49 /* GoogleAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				453EECE919E62E9D00070A49 /* Changelog.txt */,
-				453EED1419E62E9D00070A49 /* Library */,
-				453EED1F19E62E9D00070A49 /* Readme.txt */,
-			);
-			path = GoogleAnalytics;
-			sourceTree = "<group>";
-		};
-		453EED1419E62E9D00070A49 /* Library */ = {
-			isa = PBXGroup;
-			children = (
-				453EED1519E62E9D00070A49 /* GAI.h */,
-				453EED1619E62E9D00070A49 /* GAIDictionaryBuilder.h */,
-				453EED1719E62E9D00070A49 /* GAIEcommerceFields.h */,
-				453EED1819E62E9D00070A49 /* GAIEcommerceProduct.h */,
-				453EED1919E62E9D00070A49 /* GAIEcommerceProductAction.h */,
-				453EED1A19E62E9D00070A49 /* GAIEcommercePromotion.h */,
-				453EED1B19E62E9D00070A49 /* GAIFields.h */,
-				453EED1C19E62E9D00070A49 /* GAILogger.h */,
-				453EED1D19E62E9D00070A49 /* GAITrackedViewController.h */,
-				453EED1E19E62E9D00070A49 /* GAITracker.h */,
-			);
-			path = Library;
-			sourceTree = "<group>";
-		};
 		4550BE0C19DA4C7D00616949 = {
 			isa = PBXGroup;
 			children = (
@@ -517,12 +410,9 @@
 				453EEE0D19E6300300070A49 /* libz.dylib */,
 				453EEE0B19E62FF900070A49 /* SystemConfiguration.framework */,
 				453EEE0919E62FED00070A49 /* CoreData.framework */,
-				453EEE0619E62FBE00070A49 /* AdSupport.framework */,
-				453EECE719E62E9D00070A49 /* GoogleAnalyticsServicesiOS_3.09 */,
 				453EEC7B19E59AD900070A49 /* Keyboard Paid.entitlements */,
 				450F205919E4849D00EB2610 /* Expresser Smiley Keyboard.entitlements */,
 				45C59B8C19E39880007B0BD8 /* Paid Version */,
-				45C59B5019E38343007B0BD8 /* GoogleMobileAdsSdkiOS-6.12.0 */,
 				45C59A5719E22EA0007B0BD8 /* RES */,
 				4550BE1719DA4C7D00616949 /* ImageKeyboard */,
 				4550BE3119DA4C7D00616949 /* ImageKeyboardTests */,
@@ -749,74 +639,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		45C59B5019E38343007B0BD8 /* GoogleMobileAdsSdkiOS-6.12.0 */ = {
-			isa = PBXGroup;
-			children = (
-				45C59B5119E38343007B0BD8 /* Add-ons */,
-				45C59B6419E38343007B0BD8 /* GADAdMobExtras.h */,
-				45C59B6519E38343007B0BD8 /* GADAdNetworkExtras.h */,
-				45C59B6619E38343007B0BD8 /* GADAdSize.h */,
-				45C59B6719E38343007B0BD8 /* GADBannerView.h */,
-				45C59B6819E38343007B0BD8 /* GADBannerViewDelegate.h */,
-				45C59B6919E38343007B0BD8 /* GADInAppPurchase.h */,
-				45C59B6A19E38343007B0BD8 /* GADInAppPurchaseDelegate.h */,
-				45C59B6B19E38343007B0BD8 /* GADInterstitial.h */,
-				45C59B6C19E38343007B0BD8 /* GADInterstitialDelegate.h */,
-				45C59B6D19E38343007B0BD8 /* GADModules.h */,
-				45C59B6E19E38343007B0BD8 /* GADRequest.h */,
-				45C59B6F19E38343007B0BD8 /* GADRequestError.h */,
-				45C59B7019E38343007B0BD8 /* libGoogleAdMobAds.a */,
-				45C59B7119E38343007B0BD8 /* README.txt */,
-			);
-			path = "GoogleMobileAdsSdkiOS-6.12.0";
-			sourceTree = "<group>";
-		};
-		45C59B5119E38343007B0BD8 /* Add-ons */ = {
-			isa = PBXGroup;
-			children = (
-				45C59B5219E38343007B0BD8 /* DoubleClick */,
-				45C59B5A19E38343007B0BD8 /* Mediation */,
-				45C59B6119E38343007B0BD8 /* Search */,
-			);
-			path = "Add-ons";
-			sourceTree = "<group>";
-		};
-		45C59B5219E38343007B0BD8 /* DoubleClick */ = {
-			isa = PBXGroup;
-			children = (
-				45C59B5319E38343007B0BD8 /* DFPBannerView.h */,
-				45C59B5419E38343007B0BD8 /* DFPExtras.h */,
-				45C59B5519E38343007B0BD8 /* DFPInterstitial.h */,
-				45C59B5619E38343007B0BD8 /* DFPSwipeableBannerView.h */,
-				45C59B5719E38343007B0BD8 /* GADAdSizeDelegate.h */,
-				45C59B5819E38343007B0BD8 /* GADAppEventDelegate.h */,
-				45C59B5919E38343007B0BD8 /* GADSwipeableBannerViewDelegate.h */,
-			);
-			path = DoubleClick;
-			sourceTree = "<group>";
-		};
-		45C59B5A19E38343007B0BD8 /* Mediation */ = {
-			isa = PBXGroup;
-			children = (
-				45C59B5B19E38343007B0BD8 /* GADCustomEventBanner.h */,
-				45C59B5C19E38343007B0BD8 /* GADCustomEventBannerDelegate.h */,
-				45C59B5D19E38343007B0BD8 /* GADCustomEventExtras.h */,
-				45C59B5E19E38343007B0BD8 /* GADCustomEventInterstitial.h */,
-				45C59B5F19E38343007B0BD8 /* GADCustomEventInterstitialDelegate.h */,
-				45C59B6019E38343007B0BD8 /* GADCustomEventRequest.h */,
-			);
-			path = Mediation;
-			sourceTree = "<group>";
-		};
-		45C59B6119E38343007B0BD8 /* Search */ = {
-			isa = PBXGroup;
-			children = (
-				45C59B6219E38343007B0BD8 /* GADSearchBannerView.h */,
-				45C59B6319E38343007B0BD8 /* GADSearchRequest.h */,
-			);
-			path = Search;
-			sourceTree = "<group>";
-		};
 		45C59B8C19E39880007B0BD8 /* Paid Version */ = {
 			isa = PBXGroup;
 			children = (
@@ -914,7 +736,8 @@
 				TargetAttributes = {
 					4550BE1419DA4C7D00616949 = {
 						CreatedOnToolsVersion = 6.0.1;
-						DevelopmentTeam = KREJENFNB4;
+						DevelopmentTeam = W73C48ERNR;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -923,7 +746,8 @@
 					};
 					4550BE4119DA4CE500616949 = {
 						CreatedOnToolsVersion = 6.0.1;
-						DevelopmentTeam = KREJENFNB4;
+						DevelopmentTeam = W73C48ERNR;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -931,7 +755,8 @@
 						};
 					};
 					45C59B7419E39721007B0BD8 = {
-						DevelopmentTeam = KREJENFNB4;
+						DevelopmentTeam = W73C48ERNR;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -939,7 +764,8 @@
 						};
 					};
 					45C59B8F19E39CA9007B0BD8 = {
-						DevelopmentTeam = KREJENFNB4;
+						DevelopmentTeam = W73C48ERNR;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -976,15 +802,11 @@
 			files = (
 				453EEE2C19EC67A600070A49 /* long_version_extended.mov in Resources */,
 				45C59BE919E46CB5007B0BD8 /* intro_page_gold.jpg in Resources */,
-				453EEDFE19E62E9E00070A49 /* Readme.txt in Resources */,
 				45C59B0719E3118D007B0BD8 /* instructions.jpg in Resources */,
 				45C59BE319E45A48007B0BD8 /* intro_page.jpg in Resources */,
-				453EED6419E62E9E00070A49 /* Changelog.txt in Resources */,
 				4550BE2419DA4C7D00616949 /* Main.storyboard in Resources */,
 				4550BE2919DA4C7D00616949 /* LaunchScreen.xib in Resources */,
 				4550BE2619DA4C7D00616949 /* Images.xcassets in Resources */,
-				45C59B7319E38343007B0BD8 /* README.txt in Resources */,
-				453EEDA219E62E9E00070A49 /* Readme.txt in Resources */,
 				453EEE2219EC57CF00070A49 /* title_back.png in Resources */,
 				457F4B1919ECD29600D06B03 /* instructions_simple.jpg in Resources */,
 			);
@@ -1059,15 +881,11 @@
 			files = (
 				453EEE2D19EC67A600070A49 /* long_version_extended.mov in Resources */,
 				45C59BE819E46C58007B0BD8 /* intro_page_gold.jpg in Resources */,
-				453EEDFF19E62E9E00070A49 /* Readme.txt in Resources */,
 				45C59B8019E39721007B0BD8 /* instructions.jpg in Resources */,
 				45C59BE419E45A48007B0BD8 /* intro_page.jpg in Resources */,
-				453EED6519E62E9E00070A49 /* Changelog.txt in Resources */,
 				45C59B8119E39721007B0BD8 /* Main.storyboard in Resources */,
-				45C59B8419E39721007B0BD8 /* README.txt in Resources */,
 				45C59BEA19E46CD3007B0BD8 /* LaunchScreen_Paid.xib in Resources */,
 				45C59B8E19E3989A007B0BD8 /* Images_Paid.xcassets in Resources */,
-				453EEDA319E62E9E00070A49 /* Readme.txt in Resources */,
 				453EEE2319EC57CF00070A49 /* title_back.png in Resources */,
 				457F4B1A19ECD29600D06B03 /* instructions_simple.jpg in Resources */,
 			);
@@ -1266,6 +1084,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1307,6 +1126,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1328,7 +1148,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Ricky Isibor (C7T6F9H959)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ricky Isibor (C7T6F9H959)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W73C48ERNR;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1346,7 +1168,8 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "Expresser Smiley Keyboard";
-				PROVISIONING_PROFILE = "8ac04024-e7f8-4ec0-bcd2-eb2d8c3bc522";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -1355,7 +1178,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: HAIRIC LLC (KREJENFNB4)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HAIRIC LLC (KREJENFNB4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W73C48ERNR;
 				GCC_PREPROCESSOR_DEFINITIONS = FREE_VERSION;
 				INFOPLIST_FILE = ImageKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1369,7 +1194,8 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "Expresser Smiley Keyboard";
-				PROVISIONING_PROFILE = "558e3be0-56d8-4583-8314-03c015be274c";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -1378,6 +1204,8 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W73C48ERNR;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1391,6 +1219,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1399,7 +1228,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Distribution: HAIRIC LLC (KREJENFNB4)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HAIRIC LLC (KREJENFNB4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W73C48ERNR;
 				GCC_PREPROCESSOR_DEFINITIONS = FREE_VERSION;
 				INFOPLIST_FILE = Keyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -1409,6 +1240,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -1419,7 +1251,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Ricky Isibor (C7T6F9H959)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ricky Isibor (C7T6F9H959)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W73C48ERNR;
 				INFOPLIST_FILE = "Expresser Smiley Keyboard Paid-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1432,7 +1266,8 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "Expresser Smiley Keyboard Gold";
-				PROVISIONING_PROFILE = "bba5fea0-672c-400a-ae9e-f8a0d5161d76";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -1442,7 +1277,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: HAIRIC LLC (KREJENFNB4)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HAIRIC LLC (KREJENFNB4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W73C48ERNR;
 				INFOPLIST_FILE = "Expresser Smiley Keyboard Paid-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1455,7 +1292,8 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "Expresser Smiley Keyboard Gold";
-				PROVISIONING_PROFILE = "762aa333-1f4d-4bf4-831a-95ec78c74090";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -1464,6 +1302,9 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W73C48ERNR;
+				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1476,6 +1317,7 @@
 				);
 				PRODUCT_NAME = "Keyboard Paid";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1484,7 +1326,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Distribution: HAIRIC LLC (KREJENFNB4)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HAIRIC LLC (KREJENFNB4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W73C48ERNR;
+				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = "Keyboard Paid-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -1494,6 +1339,7 @@
 				);
 				PRODUCT_NAME = "Keyboard Paid";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

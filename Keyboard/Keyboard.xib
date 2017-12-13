@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -12,7 +17,7 @@
             <subviews>
                 <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Bko-tc-Hc8">
                     <rect key="frame" x="141" y="-8" width="39" height="37"/>
-                    <color key="tintColor" red="1" green="0.39785489029999999" blue="0.2101977937" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" red="1" green="0.39785489029999999" blue="0.2101977937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </pageControl>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recently Used" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ILf-cu-J2h">
                     <rect key="frame" x="85" y="0.0" width="151" height="22"/>
@@ -26,7 +31,7 @@
                 </label>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I6L-DG-hY3">
                     <rect key="frame" x="0.0" y="22" width="320" height="152"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </scrollView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWX-KK-gYM">
                     <rect key="frame" x="0.0" y="174" width="47" height="42"/>
@@ -35,7 +40,7 @@
                         <constraint firstAttribute="height" constant="42" id="lEr-vk-1aJ"/>
                     </constraints>
                     <state key="normal" backgroundImage="btnInputMode.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KLg-R1-tmY">
@@ -45,7 +50,7 @@
                         <constraint firstAttribute="height" constant="42" id="aIG-qo-2Wz"/>
                     </constraints>
                     <state key="normal" backgroundImage="btnRecent.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w4a-oI-PDw">
@@ -55,7 +60,7 @@
                         <constraint firstAttribute="height" constant="42" id="QIt-YX-h9H"/>
                     </constraints>
                     <state key="normal" backgroundImage="btnDefault.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qvT-mh-P9c">
@@ -65,7 +70,7 @@
                         <constraint firstAttribute="height" constant="42" id="srS-eN-7dg"/>
                     </constraints>
                     <state key="normal" backgroundImage="btnDelete.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                 </button>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5KL-0T-V53">
@@ -75,12 +80,12 @@
                             <rect key="frame" x="0.0" y="0.0" width="80" height="42"/>
                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                             <state key="normal" title="SPACE">
-                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
                         </button>
                     </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="42" id="1lE-1f-57I"/>
                         <constraint firstItem="HdL-pC-E1U" firstAttribute="leading" secondItem="5KL-0T-V53" secondAttribute="leading" id="BIE-d8-1cJ"/>
@@ -96,11 +101,11 @@
                         <constraint firstAttribute="height" constant="42" id="sgE-PD-8ku"/>
                     </constraints>
                     <state key="normal" backgroundImage="btnAdd.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                 </button>
             </subviews>
-            <color key="backgroundColor" red="0.8322671228083367" green="0.84376768245951328" blue="0.87826936141304346" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" red="0.8322671228083367" green="0.84376768245951328" blue="0.87826936141304346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="w4a-oI-PDw" firstAttribute="leading" secondItem="KLg-R1-tmY" secondAttribute="trailing" constant="1" id="3kH-XT-sVN"/>
                 <constraint firstItem="KLg-R1-tmY" firstAttribute="leading" secondItem="GWX-KK-gYM" secondAttribute="trailing" constant="1" id="42v-5e-anz"/>
@@ -157,9 +162,4 @@
         <image name="btnInputMode.png" width="94" height="82"/>
         <image name="btnRecent.png" width="94" height="82"/>
     </resources>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
 </document>
